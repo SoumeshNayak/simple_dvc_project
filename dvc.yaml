@@ -23,9 +23,9 @@ stages:
     - "data/processed/test_winequality.csv"
     - "src/train_and_evaluate.py"
     metrics:
-    - report/params.json:
+    - report\params.json:
         cache: false
-    - report/scores.json:
+    - report\scores.json:
         cache: false        
     outs:
     - "saved_models/model.joblib"

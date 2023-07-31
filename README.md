@@ -13,3 +13,12 @@ dvc repro
 dvc metrics diff
 
 dvc metrics show
+
+NOTE:
+in dvc.yaml:
+in test_and_evaluate for windows 
+metrics:
+    - report\params.json:
+        cache: false
+    - report\scores.json:
+        cache: false
