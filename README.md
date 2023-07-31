@@ -9,3 +9,7 @@ git add .
 git commit -m "first commit"
 
 dvc repro
+
+dvc metrics diff
+
+dvc metrics show
