@@ -5,3 +5,5 @@ fsspec==2022.7.1
 pandas
 joblib
 numpy
+pytest
+tox
