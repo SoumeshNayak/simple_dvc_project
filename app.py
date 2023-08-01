@@ -41,7 +41,7 @@ def index():
         except Exception as e:
             print(e)
             error={"error":"something went wrong"}
-            return render_template("404.html",error)
+            return render_template("404.html",error=error)
     else:
         return render_template("index.html")
 if __name__=="__main__":
