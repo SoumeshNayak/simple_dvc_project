@@ -22,3 +22,5 @@ metrics:
         cache: false
     - report\scores.json:
         cache: false
+
+pip install -e . After making setup.py to install dependency        
