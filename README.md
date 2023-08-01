@@ -24,3 +24,12 @@ metrics:
         cache: false
 
 pip install -e . After making setup.py to install dependency        
+
+tox command:
+tox
+tox for rebuilding:
+tox -r
+
+pytest command:
+pytest -v
+
